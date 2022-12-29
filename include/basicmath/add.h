@@ -1,0 +1,1 @@
+extern int add_integers(int arg1, int arg2);
