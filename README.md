@@ -26,7 +26,7 @@ Misc:
 * Inspect info about module (has to be installed already): `$ modinfo hellow`
 * Insert module (has to be installed already): `$ sudo modprobe hellow`
 * Insert non-installed module: `$ sudo insmod build/hellow.ko`
-* Check if module was installed: `$ lsmod |grep hellow`
+* Check if module was inserted: `$ lsmod |grep hellow`
 * Check for module messages: `$ dmesg |grep hellow`
 * Remove inserted module: `$ sudo modprobe --remove hellow`
 
